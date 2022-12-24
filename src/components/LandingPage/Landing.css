@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+}
+
+.my-3 {
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+}
+
+.p {
+    font-size: 25px;
+    color: white;
+}
+
+.signup-btn {
+    margin-top: 20px;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.row1,
+.row3 {
+    position: relative;
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(104, 124, 246, 1) 0%,
+            rgba(30, 232, 216, 1) 0%,
+            rgba(8, 251, 236, 1) 0%,
+            rgba(11, 5, 214, 1) 0%,
+            rgba(148, 5, 142, 0.577468487394958) 0%,
+            rgba(8, 139, 144, 1) 0%,
+            rgba(122, 226, 223, 1) 0%,
+            rgba(12, 9, 226, 1) 0%,
+            rgba(41, 219, 184, 1) 0%,
+            rgba(13, 32, 232, 1) 0%,
+            rgba(5, 12, 139, 1) 0%,
+            rgba(164, 169, 245, 1) 0%,
+            rgba(40, 162, 226, 0.989233193277311) 0%,
+            rgba(12, 26, 207, 1) 53%,
+            rgba(10, 27, 159, 1) 87%,
+            rgba(8, 26, 148, 1) 100%,
+            rgba(13, 219, 200, 1) 100%,
+            rgba(44, 46, 158, 1) 100%);
+}
+
+path {}
+
+.row3 {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.row2 {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.card-02 {
+    position: relative;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 400px;
+}
+
+ul {
+    color: white;
+    list-style-type: upper-roman;
+}
+
+.card-03 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 400px;
+}
+
+@media (max-width: 800px) {
+    .card-01 {
+        flex: 100%;
+        max-width: 800px;
+        min-width: 100px;
+    }
+
+    .card-02 {
+        flex: 100%;
+        max-width: 800px;
+        min-width: 100px;
+        width: 100%;
+    }
+
+    .card-03 {
+        flex: 100%;
+        max-width: 750px;
+    }
+
+    img {
+        object-fit: fill;
+    }
+}
+
+.main {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1654051434 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1654051434,
+svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1654051434,
+.shape-fill {
+    fill: white;
+}
+
+/* .custom-shape-divider-top-1653295150,
+.shape-fill {
+  fill: darkblue;
+} */
+.img-fluid {
+    padding: 10px;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    height: 100%;
+}
+
+.custom-shape-divider-top-1653302881 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1653302881 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-top-1653302881 .shape-fill {
+    fill: #ffffff;
+}
